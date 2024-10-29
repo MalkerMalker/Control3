@@ -2,9 +2,18 @@ import streamlit as st
 import webbrowser
 import pandas as pd
 
+with st.expander("Mostrar contenido"):
+    st.write("Contenido oculto")
+    st.button("Botón dentro del expander")
 
-st.sidebar.button("Botón en la barra lateral")
-st.write("Contenido principal")
+with st.container():
+    st.write("Este es el contenedor 1")
+    st.button("Botón en contenedor 1")
+
+# Contenedor 2
+with st.container():
+    st.write("Este es el contenedor 2")
+    st.button("Botón en contenedor 2")
 
 st.title("Registro civil")
 
