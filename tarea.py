@@ -16,13 +16,15 @@ if st.button("Haz click aqui para ver el articulo"):
 
 ingreso = st.sidebar.text_input("Ingrese su rut")
 contraseña = st.sidebar.text_input("Ingrese su clave única")
-contraseñareal = 12345678
-rutreal = 220149978
+contraseñareal = "12345678"
+rutreal = "220149978"
+contraseña = st.sidebar.text_input("Contraseña", type="password")
+rut = st.sidebar.text_input("RUT")
 if st.sidebar.button("Ingresar"):
-    while contraseña != contraseñareal: 
+    if contraseña == contraseñareal and rut == rutreal:
         st.write("Has ingresado correctamente")
-else:
-    st.write("Ingrese la contraseña correcta")
+    else:
+        st.write("Contraseña o RUT incorrectos. Intente de nuevo.")
 
 
 
