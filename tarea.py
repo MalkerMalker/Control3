@@ -6,15 +6,6 @@ with st.expander("Mostrar contenido"):
     st.write("Contenido oculto")
     st.button("Botón dentro del expander")
 
-with st.container():
-    st.write("Este es el contenedor 1")
-    st.button("Botón en contenedor 1")
-
-# Contenedor 2
-with st.container():
-    st.write("Este es el contenedor 2")
-    st.button("Botón en contenedor 2")
-
 st.title("Registro civil")
 
 st.write("""El tratamiento de los datos de carácter personal en registros o bancos de datos por organismos públicos o por particulares se sujetará a las disposiciones 
@@ -30,4 +21,9 @@ contraseña = st.sidebar.text_input("Ingrese su clave única")
 
 if st.sidebar.button("Ingresar"):
     st.write("Hola")
+
+with st.expander("Mostrar contenido"):
+    st.write("Contenido oculto")
+    st.button("Botón dentro del expander")
+
     
