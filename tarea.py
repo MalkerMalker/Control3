@@ -18,8 +18,8 @@ ingreso = st.sidebar.text_input("Ingrese su rut")
 contraseña = st.sidebar.text_input("Ingrese su clave única")
 contraseñareal = 12345678
 rutreal = 220149978
-while st.sidebar.button("Ingresar"):
-    if contraseña == contraseñareal: 
+if st.sidebar.button("Ingresar"):
+    while contraseña != contraseñareal: 
         st.write("Has ingresado correctamente")
 else:
     st.write("Ingrese la contraseña correcta")
