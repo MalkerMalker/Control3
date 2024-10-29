@@ -2,6 +2,7 @@ import streamlit as st
 import webbrowser
 import pandas as pd
 import pandas as np
+import pandas
 
 st.title("Registro civil")
 
