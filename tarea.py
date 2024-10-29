@@ -1,5 +1,5 @@
 import streamlit as st
-st.title("Hola mundo")
-st.header("En esta pagina veremos todo lo relacionado con hola mundo")
+st.title("Registro civil")
+st.header("Pagina gubernamental para la inscripción de datos civiles. Esta página se encuentra sujeta bajo la ley N. 129 del articulo 34.")
 st.subheader("Texto simple")
 st.markdown("Texto en formato Markdown")
