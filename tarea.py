@@ -24,13 +24,6 @@ if st.sidebar.button("Ingresar"):
     else:
         st.write("Contraseña o RUT incorrectos. Intente de nuevo.")
 
-
-
-
-
-
-
-
-#with st.expander("Grafico de gente registrada"):
+with st.expander("Grafico de gente registrada"):
     
     
