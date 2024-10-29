@@ -14,6 +14,9 @@ if st.button("Haz click aqui para ver el articulo"):
 
 st.sidebar.image("descarga.png")
 
+contraseñaadmin = "11111111"
+rutadmin = "22222222"
+
 contraseñareal = "12345678"
 rutreal = "220149978"
 rut = st.sidebar.text_input("RUT")
