@@ -37,8 +37,8 @@ with st.expander("Grafico de gente registrada"):
             title='Registros anuales en millones de personas',
             labels={'Registros (Millones)': 'Registros en millones', 'Año': 'Año'},
     )
-        fig.update_yaxes(tickformat=",")
-        st.plotly_chart(fig)
+    fig.update_yaxes(tickformat=",")
+    st.plotly_chart(fig)
 
     
     
