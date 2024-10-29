@@ -1,5 +1,13 @@
 import streamlit as st
 import webbrowser
+import pandas as pd
+
+archivo = st.file_uploader("database_titanic.csv", type ="csv")
+if archivo is not Nore:
+    data = pd.read_csv(uploaded_file)
+    st.write("Datos cargados exitosamente")
+    st.dataframe(data)
+
 st.title("Registro civil")
 
 st.write("""El tratamiento de los datos de carácter personal en registros o bancos de datos por organismos públicos o por particulares se sujetará a las disposiciones 
