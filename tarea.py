@@ -13,6 +13,8 @@ if st.button("Haz click aqui para ver el articulo"):
     st.sidebar.image("images.png")
     webbrowser.open("https://www.dipres.gob.cl/598/articles-51683_Otrasleyes_ley19628.pdf")
 
+st.sidebar.image("descarga.png")
+
 contraseñareal = "12345678"
 rutreal = "220149978"
 rut = st.sidebar.text_input("RUT")
