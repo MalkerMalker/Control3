@@ -25,7 +25,7 @@ if st.sidebar.button("Ingresar"):
         st.write("Contraseña o RUT incorrectos. Intente de nuevo.")
 
 with st.expander("Grafico de gente registrada"):
-uploaded_file = st.file_uploader("database_titanic.csv", type="csv")
+uploaded_file = st.file_uploader("database_titanic", type="csv")
 if uploaded_file is not None:
     data = pd.read_csv(uploaded_file)
     st.write("Vista previa de los datos:", data.head())
