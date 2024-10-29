@@ -14,12 +14,10 @@ st.sidebar.image("descarga.png")
 if st.button("Haz click aqui para ver el articulo"):
     webbrowser.open("https://www.dipres.gob.cl/598/articles-51683_Otrasleyes_ley19628.pdf")
 
-ingreso = st.sidebar.text_input("Ingrese su rut")
-contraseña = st.sidebar.text_input("Ingrese su clave única")
 contraseñareal = "12345678"
 rutreal = "220149978"
-contraseña = st.sidebar.text_input("Contraseña", type="password")
 rut = st.sidebar.text_input("RUT")
+contraseña = st.sidebar.text_input("Contraseña", type="password")
 if st.sidebar.button("Ingresar"):
     if contraseña == contraseñareal and rut == rutreal:
         st.write("Has ingresado correctamente")
