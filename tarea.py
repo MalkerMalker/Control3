@@ -15,6 +15,6 @@ contraseña = st.sidebar.text_input("Ingrese su clave única")
 
 ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ 
 
-if st.sidebar.button("Haz click aqui si necesitas ayuda"):
+if st.sidebar.button("Haz click aqui para ver el promedio de registro"):
     st.write("Hola")
     
