@@ -21,5 +21,5 @@ if st.sidebar.button("Ingresar"):
     st.write("Hola")
 
 with st.expander("Grafico de gente registrada"):
-    st.write("Registro")
+    
     
