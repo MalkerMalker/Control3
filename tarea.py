@@ -9,11 +9,9 @@ st.write("""El tratamiento de los datos de carácter personal en registros o ban
 de esta ley, con excepción del que se efectúe en ejercicio de las libertades de emitir opinión y de informar, el que se regulará por la ley a que se refiere el artículo 
 19, Nº 12, de la Constitución Política.""")
 
-st.sidebar.image("descarga.png")
-
 if st.button("Haz click aqui para ver el articulo"):
+    st.sidebar.image("descarga.png")
     webbrowser.open("https://www.dipres.gob.cl/598/articles-51683_Otrasleyes_ley19628.pdf")
-st.sidebar.image("images.png")
 
 contraseñareal = "12345678"
 rutreal = "220149978"
