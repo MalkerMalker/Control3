@@ -13,6 +13,6 @@ if st.button("Haz click aqui para ver el articulo"):
 ingreso = st.sidebar.text_input("Ingrese su rut")
 contraseña = st.sidebar.text_input("Ingrese su clave única")
 
-if st.sidebar.button("ads"):
+if st.sidebar.button("Click para ver el promedio de registro"):
     st.write("Hola")
     
