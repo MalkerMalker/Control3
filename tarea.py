@@ -22,13 +22,4 @@ if st.sidebar.button("Ingresar"):
 
 with st.expander("Grafico de gente registrada"):
     st.write("Registro")
-    x = np.linspace(0, 10, 100)
-    y = np.sin(x)
-    plt.figure()
-    plt.plot(x, y)
-    plt.title("Gráfico de Seno")
-    plt.xlabel("Eje X")
-    plt.ylabel("Eje Y")
-    st.pyplot(plt)
-
     
