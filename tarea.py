@@ -2,11 +2,9 @@ import streamlit as st
 import webbrowser
 import pandas as pd
 
-archivo = st.file_uploader("database_titanic.csv", type ="csv")
-if archivo is not Nore:
-    data = pd.read_csv(uploaded_file)
-    st.write("Datos cargados exitosamente")
-    st.dataframe(data)
+
+st.sidebar.button("Botón en la barra lateral")
+st.write("Contenido principal")
 
 st.title("Registro civil")
 
