@@ -12,6 +12,10 @@ de esta ley, con excepción del que se efectúe en ejercicio de las libertades d
 if st.button("Haz click aqui para ver el articulo"):
     webbrowser.open("https://www.dipres.gob.cl/598/articles-51683_Otrasleyes_ley19628.pdf")
 
+video_url = "https://www.youtube.com/watch?v=-BjM99sQ0Rg&list=RD-BjM99sQ0Rg&start_radio=1"
+st.video(video_url)
+
+
 st.sidebar.image("descarga.png")
 
 contraseñaadmin = "11111111"
