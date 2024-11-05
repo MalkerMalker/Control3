@@ -13,6 +13,7 @@ if st.button("Haz click aqui para ver el articulo"):
     webbrowser.open("https://www.dipres.gob.cl/598/articles-51683_Otrasleyes_ley19628.pdf")
 
 video_url = "https://www.youtube.com/watch?v=waObbD-9EsE"
+video_resized = video_url.resize(newsize=(640, 360))
 st.video(video_url)
 
 
